@@ -1,6 +1,8 @@
 package zadania;
 
 
+import java.util.Arrays;
+
 public class Zadanie6 {
     public static void main(String[] args) {
         int[] ints = {5, 2, 4, 8, 9, 7};
@@ -14,8 +16,6 @@ public class Zadanie6 {
                 }
             }
         }
-        for (int k = 0;k<ints.length;k++) {
-            System.out.println(ints[k]);
-        }
+        System.out.println(Arrays.toString(ints));
     }
 }
