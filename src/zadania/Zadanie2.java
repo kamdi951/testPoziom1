@@ -44,11 +44,11 @@ public class Zadanie2 {
                 tablY[i] = y;
                 i++;
             }
-            System.out.println("Współrzędne postaci: (" + x + "," + y + ")");
+            System.out.println("Współrzędne postaci: [" + x + "," + y + "]");
             kolejnyKrok(x, y, i, tablX, tablY);
         } else {
             for (int k = 0; k < i; k++) {
-                System.out.println(tablX[k] + "," + tablY[k]);
+                System.out.println("[" + tablX[k] + "," + tablY[k] + "]");
             }
         }
     }
